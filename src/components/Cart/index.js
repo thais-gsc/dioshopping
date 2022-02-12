@@ -31,7 +31,7 @@ const Cart = () => {
                     <div className="modal-content">
                     <div className="modal-header">
                     <h5 className="modal-title" id="CartModalLabel">Meu Carrinho</h5>
-                        <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+                        <button type="button" className="close" data-bs-dismiss="modal" aria-label="Fechar">
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -75,7 +75,7 @@ const Cart = () => {
                         </div>
 
                     <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                     </div>
                     </div>
                 </div>

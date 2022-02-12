@@ -61,7 +61,7 @@ const Contatos = () => {
             {validator && 
                 <div className="alert alert-warning alert-dismissible fade show mt-2" role="alert">
                     <strong>Por favor preencha todos os campos!</strong>
-                    <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
                 </div>
             }
 
@@ -72,7 +72,7 @@ const Contatos = () => {
             }
 
             <Button onClick={sendMessage} className="mt-2" variant="contained" color="primary">
-                Sent
+                Enviar
             </Button>
 
             {message.map((content) => {
